@@ -1,0 +1,2437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-11-10T14:28:55.328-05:00
+  initializedAtString: 2020-11-10T14:28:55.328-05:00
+  log:
+  - commitID: de1525bf46b6f8c59519f5fce873d660be40ee27
+    mergeA: 
+    mergeB: 
+    authorName: hiren
+    authorEmail: hiren1999@gmail.com
+    commitEmail: hiren1999@gmail.com
+    commitName: hiren
+    summary: Base sword character added
+    description: "Base functionality for sword character added. Moveset includes throwing
+      knives, melee sword attack, sword throw and ability to teleport to sword either
+      mid flight or when it is stuck. Bugs still present.\r\nTank character unchanged
+      from previous commit."
+    timeString: 2020-10-27T11:59:57.000-04:00
+    commitTimeString: 2020-10-27T11:59:57.000-04:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Ramu Sharma\Modular\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\Ramu Sharma\Modular\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Ramu Sharma\Modular\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player_Tank.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Player_Tank.prefab
+      projectPath: Assets\Prefabs\Player_Tank.prefab
+      originalPath: Assets\Prefabs\Main Player.prefab
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player_Tank.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Player_Tank.prefab.meta
+      projectPath: Assets\Prefabs\Player_Tank.prefab.meta
+      originalPath: Assets\Prefabs\Main Player.prefab.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Playground.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Playground.unity
+      projectPath: Assets\Scenes\Playground.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Sword.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Sword.cs
+      projectPath: Assets\Scripts\Player_Sword.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Tank.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Tank.cs
+      projectPath: Assets\Scripts\Player_Tank.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rocket.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Rocket.cs
+      projectPath: Assets\Scripts\Rocket.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Sword.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Sword.cs
+      projectPath: Assets\Scripts\Sword.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Sword.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Sword.cs.meta
+      projectPath: Assets\Scripts\Sword.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Modular.sln
+      fullPath: C:\Users\Ramu Sharma\Modular\Modular.sln
+      projectPath: Modular.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
+      projectPath: obj\Debug\.NETFramework,Version=v4.7.1.AssemblyAttributes.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: fbff24602e53c18b50cd1daad9ed886abacdc165
+    mergeA: 
+    mergeB: 
+    authorName: hiren
+    authorEmail: hiren1999@gmail.com
+    commitEmail: hiren1999@gmail.com
+    commitName: hiren
+    summary: Initial commit
+    description: 
+    timeString: 2020-05-29T13:27:45.000-04:00
+    commitTimeString: 2020-05-29T13:27:45.000-04:00
+    changes:
+    - path: .vs\Modular\DesignTimeBuild\.dtbcache
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\DesignTimeBuild\.dtbcache
+      projectPath: .vs\Modular\DesignTimeBuild\.dtbcache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Modular\v15\.suo
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\v15\.suo
+      projectPath: .vs\Modular\v15\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Modular\v15\Server\sqlite3\db.lock
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\v15\Server\sqlite3\db.lock
+      projectPath: .vs\Modular\v15\Server\sqlite3\db.lock
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Modular\v15\Server\sqlite3\storage.ide
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\Modular\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Modular\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\Modular\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\Modular\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\Ramu Sharma\Modular\.vs\Modular\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\Modular\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vscode\settings.json
+      fullPath: C:\Users\Ramu Sharma\Modular\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\Ramu Sharma\Modular\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\Ramu Sharma\Modular\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook Equip.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook Equip.anim
+      projectPath: Assets\Animations\Hook Equip.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook Equip.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook Equip.anim.meta
+      projectPath: Assets\Animations\Hook Equip.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook Store.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook Store.anim
+      projectPath: Assets\Animations\Hook Store.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook Store.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook Store.anim.meta
+      projectPath: Assets\Animations\Hook Store.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook.controller
+      projectPath: Assets\Animations\Hook.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Hook.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Hook.controller.meta
+      projectPath: Assets\Animations\Hook.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Main Player Control.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Main Player Control.controller
+      projectPath: Assets\Animations\Main Player Control.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Main Player Control.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Main Player Control.controller.meta
+      projectPath: Assets\Animations\Main Player Control.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher Equip.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher Equip.anim
+      projectPath: Assets\Animations\Rocket Launcher Equip.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher Equip.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher Equip.anim.meta
+      projectPath: Assets\Animations\Rocket Launcher Equip.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher Store.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher Store.anim
+      projectPath: Assets\Animations\Rocket Launcher Store.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher Store.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher Store.anim.meta
+      projectPath: Assets\Animations\Rocket Launcher Store.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher.controller
+      projectPath: Assets\Animations\Rocket Launcher.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Rocket Launcher.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Rocket Launcher.controller.meta
+      projectPath: Assets\Animations\Rocket Launcher.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper Equip.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper Equip.anim
+      projectPath: Assets\Animations\Sniper Equip.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper Equip.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper Equip.anim.meta
+      projectPath: Assets\Animations\Sniper Equip.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper Store.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper Store.anim
+      projectPath: Assets\Animations\Sniper Store.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper Store.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper Store.anim.meta
+      projectPath: Assets\Animations\Sniper Store.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper.controller
+      projectPath: Assets\Animations\Sniper.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Sniper.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Sniper.controller.meta
+      projectPath: Assets\Animations\Sniper.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret Equip.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret Equip.anim
+      projectPath: Assets\Animations\Water Turret Equip.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret Equip.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret Equip.anim.meta
+      projectPath: Assets\Animations\Water Turret Equip.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret Store.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret Store.anim
+      projectPath: Assets\Animations\Water Turret Store.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret Store.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret Store.anim.meta
+      projectPath: Assets\Animations\Water Turret Store.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret.controller
+      projectPath: Assets\Animations\Water Turret.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Water Turret.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Animations\Water Turret.controller.meta
+      projectPath: Assets\Animations\Water Turret.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy.meta
+      projectPath: Assets\Enemy.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\MC1.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_2k.bmp.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Base_M.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_2k.bmp.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Models\MC-1\Materials\MC-1_Tracks_M.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_2017.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy Cinematic.pdf
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy
+        Cinematic.pdf
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy Cinematic.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy Cinematic.pdf.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy
+        Cinematic.pdf.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PPS_Legacy Cinematic.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\PostProcess.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\Prefabs\MC-1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt.meta
+      projectPath: Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Black.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Black.mat
+      projectPath: Assets\Materials\Black.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Black.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Black.mat.meta
+      projectPath: Assets\Materials\Black.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment.meta
+      projectPath: Assets\Materials\Environment.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor.meta
+      projectPath: Assets\Materials\Environment\Floor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile (Albedo).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile (Albedo).tif
+      projectPath: Assets\Materials\Environment\Floor\Black Tile (Albedo).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile (Albedo).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile (Albedo).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Black Tile (Albedo).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile (Normal).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile (Normal).tif
+      projectPath: Assets\Materials\Environment\Floor\Black Tile (Normal).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile (Normal).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile (Normal).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Black Tile (Normal).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile Floor.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile Floor.mat
+      projectPath: Assets\Materials\Environment\Floor\Black Tile Floor.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Black Tile Floor.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Black
+        Tile Floor.mat.meta
+      projectPath: Assets\Materials\Environment\Floor\Black Tile Floor.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile (Albedo).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile (Albedo).tif
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile (Albedo).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile (Albedo).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile (Albedo).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile (Albedo).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile (Normal).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile (Normal).tif
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile (Normal).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile (Normal).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile (Normal).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile (Normal).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile Floor.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile Floor.mat
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile Floor.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Blue Tile Floor.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Blue
+        Tile Floor.mat.meta
+      projectPath: Assets\Materials\Environment\Floor\Blue Tile Floor.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Floor Tile.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Floor Tile.mat
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Floor Tile.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Floor Tile.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Floor Tile.mat.meta
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Floor Tile.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Tile (Albedo).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Tile (Albedo).tif
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Tile (Albedo).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Tile (Albedo).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Tile (Albedo).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Tile (Albedo).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Tile (Normal).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Tile (Normal).tif
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Tile (Normal).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Checkerboard Tile (Normal).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Checkerboard
+        Tile (Normal).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Checkerboard Tile (Normal).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal (Albedo).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal (Albedo).tif
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal (Albedo).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal (Albedo).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal (Albedo).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal (Albedo).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal (Normal).tif
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal (Normal).tif
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal (Normal).tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal (Normal).tif.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal (Normal).tif.meta
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal (Normal).tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal Tile.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal Tile.mat
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal Tile.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Floor\Painted Metal Tile.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Floor\Painted
+        Metal Tile.mat.meta
+      projectPath: Assets\Materials\Environment\Floor\Painted Metal Tile.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Glass.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Glass.mat
+      projectPath: Assets\Materials\Environment\Glass.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Environment\Glass.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Environment\Glass.mat.meta
+      projectPath: Assets\Materials\Environment\Glass.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Explosion.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Explosion.mat
+      projectPath: Assets\Materials\Explosion.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Explosion.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Explosion.mat.meta
+      projectPath: Assets\Materials\Explosion.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Fire Ball.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Fire Ball.mat
+      projectPath: Assets\Materials\Fire Ball.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Fire Ball.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Fire Ball.mat.meta
+      projectPath: Assets\Materials\Fire Ball.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\FireTank.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\FireTank.mat
+      projectPath: Assets\Materials\FireTank.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\FireTank.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\FireTank.mat.meta
+      projectPath: Assets\Materials\FireTank.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Hook Rope.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Hook Rope.mat
+      projectPath: Assets\Materials\Hook Rope.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Hook Rope.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Hook Rope.mat.meta
+      projectPath: Assets\Materials\Hook Rope.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Hook.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Hook.mat
+      projectPath: Assets\Materials\Hook.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Hook.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Hook.mat.meta
+      projectPath: Assets\Materials\Hook.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Normal Ball.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Normal Ball.mat
+      projectPath: Assets\Materials\Normal Ball.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Normal Ball.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Normal Ball.mat.meta
+      projectPath: Assets\Materials\Normal Ball.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rock Ball.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rock Ball.mat
+      projectPath: Assets\Materials\Rock Ball.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rock Ball.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rock Ball.mat.meta
+      projectPath: Assets\Materials\Rock Ball.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\RockTank.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\RockTank.mat
+      projectPath: Assets\Materials\RockTank.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\RockTank.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\RockTank.mat.meta
+      projectPath: Assets\Materials\RockTank.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rocke Launcher.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rocke Launcher.mat
+      projectPath: Assets\Materials\Rocke Launcher.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rocke Launcher.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rocke Launcher.mat.meta
+      projectPath: Assets\Materials\Rocke Launcher.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rocket.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rocket.mat
+      projectPath: Assets\Materials\Rocket.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Rocket.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Rocket.mat.meta
+      projectPath: Assets\Materials\Rocket.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Sniper.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Sniper.mat
+      projectPath: Assets\Materials\Sniper.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Sniper.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Sniper.mat.meta
+      projectPath: Assets\Materials\Sniper.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\StandardTank.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\StandardTank.mat
+      projectPath: Assets\Materials\StandardTank.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\StandardTank.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\StandardTank.mat.meta
+      projectPath: Assets\Materials\StandardTank.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Test Reticle.png
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Test Reticle.png
+      projectPath: Assets\Materials\Test Reticle.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Test Reticle.png.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Test Reticle.png.meta
+      projectPath: Assets\Materials\Test Reticle.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water Turret.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Water Turret.mat
+      projectPath: Assets\Materials\Water Turret.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water Turret.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Materials\Water Turret.mat.meta
+      projectPath: Assets\Materials\Water Turret.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics.meta
+      projectPath: Assets\PorglezompPyroclastics.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Editor.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Editor.meta
+      projectPath: Assets\PorglezompPyroclastics\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs
+      projectPath: Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs.meta
+      projectPath: Assets\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs
+      projectPath: Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs.meta
+      projectPath: Assets\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion Ramp.psd
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion
+        Ramp.psd
+      projectPath: Assets\PorglezompPyroclastics\Explosion Ramp.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion Ramp.psd.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion
+        Ramp.psd.meta
+      projectPath: Assets\PorglezompPyroclastics\Explosion Ramp.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion.mat
+      projectPath: Assets\PorglezompPyroclastics\Explosion.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion.mat.meta
+      projectPath: Assets\PorglezompPyroclastics\Explosion.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion.shader
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion.shader
+      projectPath: Assets\PorglezompPyroclastics\Explosion.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Explosion.shader.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Explosion.shader.meta
+      projectPath: Assets\PorglezompPyroclastics\Explosion.shader.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\ExplosionMat.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\ExplosionMat.cs
+      projectPath: Assets\PorglezompPyroclastics\ExplosionMat.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\ExplosionMat.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\ExplosionMat.cs.meta
+      projectPath: Assets\PorglezompPyroclastics\ExplosionMat.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\NoiseTex.psd
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\NoiseTex.psd
+      projectPath: Assets\PorglezompPyroclastics\NoiseTex.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\NoiseTex.psd.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\NoiseTex.psd.meta
+      projectPath: Assets\PorglezompPyroclastics\NoiseTex.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Pyroclastic Puff.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Pyroclastic
+        Puff.prefab
+      projectPath: Assets\PorglezompPyroclastics\Pyroclastic Puff.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\Pyroclastic Puff.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\Pyroclastic
+        Puff.prefab.meta
+      projectPath: Assets\PorglezompPyroclastics\Pyroclastic Puff.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\README.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\README.txt
+      projectPath: Assets\PorglezompPyroclastics\README.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PorglezompPyroclastics\README.txt.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\PorglezompPyroclastics\README.txt.meta
+      projectPath: Assets\PorglezompPyroclastics\README.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies.meta
+      projectPath: Assets\Prefabs\Enemies.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Fire Ball.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Fire Ball.prefab
+      projectPath: Assets\Prefabs\Enemies\Fire Ball.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Fire Ball.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Fire Ball.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Fire Ball.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Fire Enemy Variant.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Fire Enemy Variant.prefab
+      projectPath: Assets\Prefabs\Enemies\Fire Enemy Variant.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Fire Enemy Variant.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Fire Enemy Variant.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Fire Enemy Variant.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Normal Ball.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Normal Ball.prefab
+      projectPath: Assets\Prefabs\Enemies\Normal Ball.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Normal Ball.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Normal Ball.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Normal Ball.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Rock Ball.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Rock Ball.prefab
+      projectPath: Assets\Prefabs\Enemies\Rock Ball.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Rock Ball.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Rock Ball.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Rock Ball.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Rock Enemy Variant.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Rock Enemy Variant.prefab
+      projectPath: Assets\Prefabs\Enemies\Rock Enemy Variant.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Rock Enemy Variant.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Rock Enemy Variant.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Rock Enemy Variant.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Standard Enemy Variant.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Standard Enemy
+        Variant.prefab
+      projectPath: Assets\Prefabs\Enemies\Standard Enemy Variant.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Enemies\Standard Enemy Variant.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Enemies\Standard Enemy
+        Variant.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\Standard Enemy Variant.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment.meta
+      projectPath: Assets\Prefabs\Environment.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Black Tile Floor.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Black Tile
+        Floor.prefab
+      projectPath: Assets\Prefabs\Environment\Black Tile Floor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Black Tile Floor.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Black Tile
+        Floor.prefab.meta
+      projectPath: Assets\Prefabs\Environment\Black Tile Floor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Blue Tile Floor.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Blue Tile
+        Floor.prefab
+      projectPath: Assets\Prefabs\Environment\Blue Tile Floor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Blue Tile Floor.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Blue Tile
+        Floor.prefab.meta
+      projectPath: Assets\Prefabs\Environment\Blue Tile Floor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Checkerboard Floor.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Checkerboard
+        Floor.prefab
+      projectPath: Assets\Prefabs\Environment\Checkerboard Floor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Checkerboard Floor.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Checkerboard
+        Floor.prefab.meta
+      projectPath: Assets\Prefabs\Environment\Checkerboard Floor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Painted Metal Floor.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Painted Metal
+        Floor.prefab
+      projectPath: Assets\Prefabs\Environment\Painted Metal Floor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Environment\Painted Metal Floor.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Environment\Painted Metal
+        Floor.prefab.meta
+      projectPath: Assets\Prefabs\Environment\Painted Metal Floor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Main Player.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Main Player.prefab
+      projectPath: Assets\Prefabs\Main Player.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Main Player.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Main Player.prefab.meta
+      projectPath: Assets\Prefabs\Main Player.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Rocket.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Rocket.prefab
+      projectPath: Assets\Prefabs\Rocket.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Rocket.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Rocket.prefab.meta
+      projectPath: Assets\Prefabs\Rocket.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Switch.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Switch.prefab
+      projectPath: Assets\Prefabs\Switch.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Switch.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Switch.prefab.meta
+      projectPath: Assets\Prefabs\Switch.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Target.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Target.prefab
+      projectPath: Assets\Prefabs\Target.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Target.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Prefabs\Target.prefab.meta
+      projectPath: Assets\Prefabs\Target.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 1.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 1.unity
+      projectPath: Assets\Scenes\Level 1.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 1.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 1.unity.meta
+      projectPath: Assets\Scenes\Level 1.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 2.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 2.meta
+      projectPath: Assets\Scenes\Level 2.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 2.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 2.unity
+      projectPath: Assets\Scenes\Level 2.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 2.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 2.unity.meta
+      projectPath: Assets\Scenes\Level 2.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 2\NavMesh.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 2\NavMesh.asset
+      projectPath: Assets\Scenes\Level 2\NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 2\NavMesh.asset.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 2\NavMesh.asset.meta
+      projectPath: Assets\Scenes\Level 2\NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 3.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 3.meta
+      projectPath: Assets\Scenes\Level 3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 3.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 3.unity
+      projectPath: Assets\Scenes\Level 3.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 3.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 3.unity.meta
+      projectPath: Assets\Scenes\Level 3.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 3\NavMesh.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 3\NavMesh.asset
+      projectPath: Assets\Scenes\Level 3\NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Level 3\NavMesh.asset.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Level 3\NavMesh.asset.meta
+      projectPath: Assets\Scenes\Level 3\NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main Menu.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Main Menu.unity
+      projectPath: Assets\Scenes\Main Menu.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Main Menu.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Main Menu.unity.meta
+      projectPath: Assets\Scenes\Main Menu.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\MainScene.meta
+      projectPath: Assets\Scenes\MainScene.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\MainScene.unity
+      projectPath: Assets\Scenes\MainScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\MainScene.unity.meta
+      projectPath: Assets\Scenes\MainScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene\NavMesh.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\MainScene\NavMesh.asset
+      projectPath: Assets\Scenes\MainScene\NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainScene\NavMesh.asset.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\MainScene\NavMesh.asset.meta
+      projectPath: Assets\Scenes\MainScene\NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Playground.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Playground.unity
+      projectPath: Assets\Scenes\Playground.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Playground.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Playground.unity.meta
+      projectPath: Assets\Scenes\Playground.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Tile Map.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Tile Map.unity
+      projectPath: Assets\Scenes\Tile Map.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Tile Map.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scenes\Tile Map.unity.meta
+      projectPath: Assets\Scenes\Tile Map.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door.meta
+      projectPath: Assets\SciFi_Door.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation.meta
+      projectPath: Assets\SciFi_Door\Animation.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\SciFiDoor.controller
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\SciFiDoor.controller
+      projectPath: Assets\SciFi_Door\Animation\SciFiDoor.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\SciFiDoor.controller.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\SciFiDoor.controller.meta
+      projectPath: Assets\SciFi_Door\Animation\SciFiDoor.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\close.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\close.anim
+      projectPath: Assets\SciFi_Door\Animation\close.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\close.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\close.anim.meta
+      projectPath: Assets\SciFi_Door\Animation\close.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\open.anim
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\open.anim
+      projectPath: Assets\SciFi_Door\Animation\open.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Animation\open.anim.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Animation\open.anim.meta
+      projectPath: Assets\SciFi_Door\Animation\open.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Demo.unity
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Demo.unity
+      projectPath: Assets\SciFi_Door\Demo.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Demo.unity.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Demo.unity.meta
+      projectPath: Assets\SciFi_Door\Demo.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials.meta
+      projectPath: Assets\SciFi_Door\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\Door_DF.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\Door_DF.mat
+      projectPath: Assets\SciFi_Door\Materials\Door_DF.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\Door_DF.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\Door_DF.mat.meta
+      projectPath: Assets\SciFi_Door\Materials\Door_DF.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\No Name.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\No Name.mat
+      projectPath: Assets\SciFi_Door\Materials\No Name.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\No Name.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\No Name.mat.meta
+      projectPath: Assets\SciFi_Door\Materials\No Name.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\collider.mat
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\collider.mat
+      projectPath: Assets\SciFi_Door\Materials\collider.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Materials\collider.mat.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Materials\collider.mat.meta
+      projectPath: Assets\SciFi_Door\Materials\collider.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Prefabs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Prefabs.meta
+      projectPath: Assets\SciFi_Door\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Prefabs\Door_Prefab.prefab
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Prefabs\Door_Prefab.prefab
+      projectPath: Assets\SciFi_Door\Prefabs\Door_Prefab.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Prefabs\Door_Prefab.prefab.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Prefabs\Door_Prefab.prefab.meta
+      projectPath: Assets\SciFi_Door\Prefabs\Door_Prefab.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\SF_Door.fbm.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\SF_Door.fbm.meta
+      projectPath: Assets\SciFi_Door\SF_Door.fbm.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\SF_Door.fbx
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\SF_Door.fbx
+      projectPath: Assets\SciFi_Door\SF_Door.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\SF_Door.fbx.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\SF_Door.fbx.meta
+      projectPath: Assets\SciFi_Door\SF_Door.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Script.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Script.meta
+      projectPath: Assets\SciFi_Door\Script.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Script\door.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Script\door.cs
+      projectPath: Assets\SciFi_Door\Script\door.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Script\door.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Script\door.cs.meta
+      projectPath: Assets\SciFi_Door\Script\door.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Textures.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Textures.meta
+      projectPath: Assets\SciFi_Door\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Textures\Door_DF.psd
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Textures\Door_DF.psd
+      projectPath: Assets\SciFi_Door\Textures\Door_DF.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Textures\Door_DF.psd.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Textures\Door_DF.psd.meta
+      projectPath: Assets\SciFi_Door\Textures\Door_DF.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Textures\Door_NM.png
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Textures\Door_NM.png
+      projectPath: Assets\SciFi_Door\Textures\Door_NM.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\Textures\Door_NM.png.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\Textures\Door_NM.png.meta
+      projectPath: Assets\SciFi_Door\Textures\Door_NM.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\readme.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\readme.txt
+      projectPath: Assets\SciFi_Door\readme.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SciFi_Door\readme.txt.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\SciFi_Door\readme.txt.meta
+      projectPath: Assets\SciFi_Door\readme.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\AIManager.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\AIManager.cs
+      projectPath: Assets\Scripts\AIManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\AIManager.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\AIManager.cs.meta
+      projectPath: Assets\Scripts\AIManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\AIRocket.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\AIRocket.cs
+      projectPath: Assets\Scripts\AIRocket.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\AIRocket.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\AIRocket.cs.meta
+      projectPath: Assets\Scripts\AIRocket.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BasicMovement.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\BasicMovement.cs
+      projectPath: Assets\Scripts\BasicMovement.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\BasicMovement.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\BasicMovement.cs.meta
+      projectPath: Assets\Scripts\BasicMovement.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Exit.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Exit.cs
+      projectPath: Assets\Scripts\Exit.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Exit.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Exit.cs.meta
+      projectPath: Assets\Scripts\Exit.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\LoadScene.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\LoadScene.cs
+      projectPath: Assets\Scripts\LoadScene.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\LoadScene.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\LoadScene.cs.meta
+      projectPath: Assets\Scripts\LoadScene.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Look.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Look.cs
+      projectPath: Assets\Scripts\Look.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Look.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Look.cs.meta
+      projectPath: Assets\Scripts\Look.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Sword.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Sword.cs
+      projectPath: Assets\Scripts\Player_Sword.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Sword.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Sword.cs.meta
+      projectPath: Assets\Scripts\Player_Sword.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Tank.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Tank.cs
+      projectPath: Assets\Scripts\Player_Tank.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player_Tank.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Player_Tank.cs.meta
+      projectPath: Assets\Scripts\Player_Tank.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rocket.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Rocket.cs
+      projectPath: Assets\Scripts\Rocket.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rocket.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\Rocket.cs.meta
+      projectPath: Assets\Scripts\Rocket.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ShrinkExplosion.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\ShrinkExplosion.cs
+      projectPath: Assets\Scripts\ShrinkExplosion.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ShrinkExplosion.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\ShrinkExplosion.cs.meta
+      projectPath: Assets\Scripts\ShrinkExplosion.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SwitchController.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\SwitchController.cs
+      projectPath: Assets\Scripts\SwitchController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\SwitchController.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\SwitchController.cs.meta
+      projectPath: Assets\Scripts\SwitchController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TargetHit.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\TargetHit.cs
+      projectPath: Assets\Scripts\TargetHit.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\TargetHit.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\TargetHit.cs.meta
+      projectPath: Assets\Scripts\TargetHit.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\cursor.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\cursor.cs
+      projectPath: Assets\Scripts\cursor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\cursor.cs.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Scripts\cursor.cs.meta
+      projectPath: Assets\Scripts\cursor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds.meta
+      projectPath: Assets\Sounds.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav
+      projectPath: Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav.meta
+      projectPath: Assets\Sounds\barreta_m9-Dion_Stapper-1010051237.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\gun single shot.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\gun single shot.wav
+      projectPath: Assets\Sounds\gun single shot.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\gun single shot.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\gun single shot.wav.meta
+      projectPath: Assets\Sounds\gun single shot.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\hook.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\hook.wav
+      projectPath: Assets\Sounds\hook.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\hook.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\hook.wav.meta
+      projectPath: Assets\Sounds\hook.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\reload.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\reload.wav
+      projectPath: Assets\Sounds\reload.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\reload.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\reload.wav.meta
+      projectPath: Assets\Sounds\reload.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\rocket explode.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\rocket explode.wav
+      projectPath: Assets\Sounds\rocket explode.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\rocket explode.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\rocket explode.wav.meta
+      projectPath: Assets\Sounds\rocket explode.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\water_cannon.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\water_cannon.wav
+      projectPath: Assets\Sounds\water_cannon.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\water_cannon.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\water_cannon.wav.meta
+      projectPath: Assets\Sounds\water_cannon.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\water_turret.wav
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\water_turret.wav
+      projectPath: Assets\Sounds\water_turret.wav
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sounds\water_turret.wav.meta
+      fullPath: C:\Users\Ramu Sharma\Modular\Assets\Sounds\water_turret.wav.meta
+      projectPath: Assets\Sounds\water_turret.wav.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Logs\Packages-Update.log
+      fullPath: C:\Users\Ramu Sharma\Modular\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Modular.sln
+      fullPath: C:\Users\Ramu Sharma\Modular\Modular.sln
+      projectPath: Modular.sln
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\Ramu Sharma\Modular\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\Ramu Sharma\Modular\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+      projectPath: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+      projectPath: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+      projectPath: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\build.force
+      fullPath: C:\Users\Ramu Sharma\Modular\obj\Debug\build.force
+      projectPath: obj\Debug\build.force
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

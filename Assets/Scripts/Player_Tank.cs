@@ -238,7 +238,7 @@ public class Player_Tank : MonoBehaviour
         }
 
         //Rockets
-        if (Input.GetButtonDown("Rocket")){
+        if (Input.GetButtonDown("Alternate")){
             if (rocketReload == rocketReloadTime)
             {
                 Ray forwardRay = new Ray(cam.transform.position, cam.transform.forward);
@@ -257,7 +257,7 @@ public class Player_Tank : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Grapple")){
+        if (Input.GetButtonDown("Ability")){
             /*
             //Grappling Hook
             if (!gh_isAtt && !rh_isAtt)

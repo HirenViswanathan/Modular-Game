@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\Rocket.cs" />
      <Compile Include="Assets\Scripts\ShrinkExplosion.cs" />
      <Compile Include="Assets\Scripts\SwitchController.cs" />
+     <Compile Include="Assets\Scripts\Sword.cs" />
      <Compile Include="Assets\Scripts\TargetHit.cs" />
      <None Include="Assets\PorglezompPyroclastics\Explosion.shader" />
      <None Include="Assets\Enemy\MC-1 USSR Toon Tank Big\README.txt" />
